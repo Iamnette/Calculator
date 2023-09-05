@@ -60,6 +60,5 @@ function randomColor() {
     let randomNumber3 = Math.floor(Math.random() * 256)
     let rgb = `rgb(${randomNumber1},${randomNumber2},${randomNumber3})`;
     calculator.style.backgroundColor = rgb
-    // calculator.style.boxShadow = `5px 10px 8px 10px ${rgb}`
-    // calculator.style.outline = `2px solid ${rgb} `
+    
 }  
