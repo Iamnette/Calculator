@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(131, 202, 153);
+}
+
+h1 {
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: burlywood;
+    text-shadow: #970707 5px 5px ;
+}
+
+.container {
+    border-radius: 15px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    padding: 15px;
+    border: 4px rgb(135, 37, 37) solid;
+    outline: 2px solid #f4eeee;
+    border-radius: 20px;
+    background-color: rgb(7, 19, 11);
+    box-shadow: 5px 3px 4px 3px #fff;
+}
+
+#display {
+    text-align: right;
+    margin-bottom: 8px;
+    width: 100%;
+    height: 65px;
+    font-size: 100%;
+    padding-right: 8px;
+    border-radius: 20px;
+    cursor: none;
+    border: 2px solid rgb(72, 71, 71);
+    background-color: darkslategray;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+button,
+input[type="button"] {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    margin: 3px;
+    border-radius: 26px;
+    background-color: rgb(95, 158, 160);
+    border: 0;
+    cursor: pointer;
+    box-shadow: 3px 4px rgb(132, 199, 201);
+}
+
+button {
+    color: #fff;
+}
+
+#equal {
+    height: 128px;
+    float: right;
+    margin-top: -62px;
+}
+
+.operators,
+.clear,
+.delete {
+    color: blue;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+}
+
+#randomBtn {
+    padding: 10px;
+    margin-top: 10px;
+    width: auto;
+    cursor: pointer;
+    width: 70px;
+position: absolute;
+}
+span{
+    font-family: 'Agdasima', sans-serif;
+    text-transform: capitalize
+}
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
